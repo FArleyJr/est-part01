@@ -1,0 +1,39 @@
+body {
+    background-color: #ccc;
+    font-family:arial;
+    font-size: 20px; 
+}
+
+h1{
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+}
+
+.titulo01{
+    float: right;
+
+}
+
+.titulo02{
+    float: right;
+    margin-right: 10px;
+
+}
+
+.Botão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    margin-right: 25px;
+    background-color:cornflowerblue ;
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(12, 12, 12);
+}
