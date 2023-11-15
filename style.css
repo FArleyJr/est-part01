@@ -1,27 +1,52 @@
 body {
-    background-color: #ccc;
+    background-color: white;
     font-family:arial;
     font-size: 20px; 
 }
 
-h1{
-    text-align: center;
-}
+/* PARTE INICIAL*/
 
 .titulo{
-    display: flex;
+    top: 0;
+    background-image: url('imagens/tema-pagina-empreendedorismo-principal-min.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 790px;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 10%;
+
 }
+
 
 .titulo01{
-    float: right;
-
+    height: 700px;
+    width: 60%;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;  
+    position:relative;
+    padding-bottom: 140px;
 }
 
-.titulo02{
-    float: right;
-    margin-right: 10px;
 
-}
+.titulo01 h1 {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blue; 
+    font-size: 67px;
+ }
+
+.titulo01 p {
+        
+    font-size: 30px;
+    color: darkblue
+ }
+
+
 
 .Botão{
     display: flex;
@@ -30,10 +55,50 @@ h1{
     text-align: center;
 }
 
-button{
-    margin-right: 25px;
-    background-color:cornflowerblue ;
-    width: 70px;
-    height: 70px;
-    border: 2px solid rgb(12, 12, 12);
+#estudos{
+    background-image: url('imagens/empreendedorismo-botao-1.png');
+    background-size: cover;
+    background-position: center;
+    height: 131px;
+    width: 140px;
+    border: none;
+}
+
+#pesquisas{
+    background-image: url('imagens/empreendedorismo-botao-2.png');
+    background-size: cover;
+    background-position: center;
+    height: 131px;
+    width: 140px;
+    border: none;
+
+}
+
+#paineis{
+    background-image: url('imagens/empreendedorismo-botao-3.png');
+    background-size: cover;
+    background-position: center;
+    height: 131px;
+    width: 140px;
+    border: none;
+
+}
+
+
+/*BOTÃO PÁGINA ESPECIAL*/
+
+.botaoEspecial{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Especial{
+   
+    background-image: url('imagens/btnPgEspecial.png');
+    background-size: cover;
+    background-position: center;
+    height:109px;
+    width: 600px;
+    border: none;
 }
