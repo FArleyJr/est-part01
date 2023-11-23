@@ -27,7 +27,7 @@ body {
     align-items: center;
     text-align: left;  
     position:relative;
-    padding-bottom: 140px;
+    padding-bottom: 100px;
 }
 
 
@@ -91,14 +91,118 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 800px;
 }
 
 #Especial{
-   
     background-image: url('imagens/btnPgEspecial.png');
     background-size: cover;
     background-position: center;
     height:109px;
     width: 600px;
     border: none;
+}
+
+/*SEÇÃO 1*/
+
+.Secao01{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 850px;
+}
+
+/*BOTÃO ESTUDOS*/
+
+.botaoEstudo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 800px;
+}
+
+#Estudo{
+    background-image: url('imagens/btnEstudos.png');
+    background-size: cover;
+    background-position: center;
+    height:109px;
+    width: 600px;
+    border: none;
+}
+
+/*FORMAS DE EMPREENDEDORISMO*/
+
+.Empreendedorismo{
+    background-image: url('imagens/findoLinha.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* PARTE DE CIMA */
+.texto{ 
+    margin-top: 70px;
+    width: 900px;
+    position: absolute; 
+    right: 0; 
+
+}
+.tituloo {
+    font-size: 40px;
+    color: rgb(75, 75, 119);
+    font-weight: bold;
+    text-align: center;
+
+}
+.subtitulo {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.caraNegro{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    margin-left: 12px;
+}
+
+/* PARTE DE BAIXO*/
+
+.texto02{ 
+    margin-top: 640px;
+    width: 900px;
+    position: absolute; 
+    left: 0; 
+
+}
+.tituloo02 {
+    font-size: 40px;
+    color: rgb(75, 75, 119);
+    font-weight: bold;
+    text-align: center;
+
+}
+.subtitulo02 {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.caraBranco{
+    position: absolute;
+    top: 640px;
+    right: 0;
+    margin-right: 12px;
+}
+
+.fundo {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
 }
