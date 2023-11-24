@@ -378,3 +378,79 @@ body {
     width: 600px;
     border: none;
 }
+
+/* EMPREENDEDORISMO03 */
+
+.Empreendedorismo03{
+    background-image: url('imagens/findoLinha.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+
+.texto05{ 
+    margin-top: 440px;
+    width: 900px;
+    position: absolute; 
+    right: 20px; 
+
+}
+.tituloo05 {
+    font-size: 40px;
+    color: rgb(75, 75, 119);
+    font-weight: bold;
+    text-align: left; 
+
+}
+.subtitulo05 {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.butao05{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 750px;
+}
+
+#acessar05 {
+    background-image: url('imagens/btnAcessa.png');
+    background-size: cover;
+    background-position: center;
+    height:75px;
+    width: 285px;
+    border: none;
+}
+
+.mulherBranca{
+    position: absolute;
+    top: 440px;
+    margin-left: 8px;
+}
+
+
+/*BOTÃO ESTUDOS ESPECIAIS 02*/
+
+.EstudoEsp02{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#Estesp02{
+    background-image: url('imagens/btnEstudos.png');
+    background-size: cover;
+    background-position: center;
+    height:109px;
+    width: 600px;
+    border: none;
+}
+
+
